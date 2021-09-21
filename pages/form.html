@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forma</title>
+  </head>
+  <body>
+    <form action="/register">
+      <fieldset>
+        <legend>Radio va checkbox</legend>
+        <label for="1-sovol-a">A</label>
+        <input type="radio" name="1-savol" id="1-sovol-a" />
+        <label for="1-sovol-b">B</label>
+        <input type="radio" name="1-savol" id="1-sovol-b" />
+        <label for="1-sovol-c">C</label>
+        <input type="radio" name="1-savol" id="1-sovol-c" />
+        <br />
+        <hr />
+        <label for="2-sovol-a">A</label>
+        <input type="radio" name="2-savol" id="2-sovol-a" />
+        <label for="2-sovol-b">B</label>
+        <input type="radio" name="2-savol" id="2-sovol-b" />
+        <label for="2-sovol-c">C</label>
+        <input type="radio" name="2-savol" id="2-sovol-c" />
+        <hr />
+        <label for="futbol">Futbol</label>
+        <input type="checkbox" name="sport" id="futbol" />
+        <label for="basketbol">Basketbol</label>
+        <input type="checkbox" name="sport" id="basketbol" />
+        <label for="golf">Golf</label>
+        <input type="checkbox" name="sport" id="golf" />
+      </fieldset>
+      <fieldset>
+        <legend>Input turlari</legend>
+        <input type="text" />
+        <input type="number" />
+        <input type="email" />
+        <input type="password" />
+        <input type="color" />
+        <input type="date" />
+        <input type="datetime-local" />
+        <input type="tel" />
+        <input type="url" />
+        <input type="file" />
+        <input type="range" min="0" max="5" />
+        <input type="button" value="Button" />
+        <input type="submit" value="Qabul" />
+        <input type="reset" value="Qayta kiritish" />
+        <input type="checkbox" />
+        <input type="radio" />
+      </fieldset>
+      <fieldset>
+        <legend>Shaxsiy Ma'lumotlar</legend>
+        <label for="ism-uchun-input">Ism</label>
+        <!-- 
+
+            disabled
+
+         -->
+        <input
+          name="ism"
+          type="text"
+          placeholder="Abdulloh"
+          id="ism-uchun-input"
+          required
+          value="Alisherjon"
+        />
+        <label for="Xabar-uchun">Xabar</label>
+        <textarea
+          placeholder="Xabar kiriting..."
+          name="sms"
+          cols="50"
+          id="Xabar-uchun"
+          rows="5"
+        ></textarea>
+        <select name="davlat">
+          <option value="uz">O'zbekiston</option>
+          <option value="ru">Rassiya</option>
+          <option value="usa">AQSH</option>
+          <option value="cn">Kanada</option>
+          <option value="ch">Xitoy</option>
+        </select>
+        <button type="submit">Qabul qilish</button>
+        <button type="reset">Qayta kiritish</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
